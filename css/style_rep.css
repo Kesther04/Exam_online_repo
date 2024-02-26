@@ -1,0 +1,238 @@
+@media(max-width:1280px){
+
+    #peon{
+        display: block;
+        margin-top: 0px;
+        float: left;
+        width:50px;
+        font-size: 30px;
+        background:  #dbdbdb;
+        border-radius: 10px;
+        text-align: center;
+        margin: 10px;
+        cursor: pointer;
+    }
+    
+    
+    #losec{
+        display:block;
+        margin-top: 20px;
+        float: right;
+        width:50px;
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+    .main-div-container{
+        width:100%;
+        margin-left:0%;
+        padding:20px;
+        border:0px solid green;
+        height:auto;
+        float: left;
+    }
+    
+
+    .dashboard{
+        width:100%;
+        height:100%;
+        position: fixed;top:0;
+        visibility: hidden;
+        overflow: auto;
+        z-index: 10;
+    }   
+
+    .fir-div-container table tr td{
+        padding:30px;
+        margin:10px;
+        width:100%;
+        float: left;
+    }
+
+    .con-btn{
+        padding:20px;
+        border-radius:10px;
+       
+    }
+
+    .msg{
+        width:100%;
+        height:100%;
+        padding:20px;
+        border-radius: 10px;
+        overflow: auto;
+    }
+
+    .fir-div-container .first-max{
+        width:100%;
+        overflow: auto;
+    }
+
+    
+    .fir-div-container .first-max tr td{
+        padding:10px;
+        margin:10px 0px;
+        width:25%;
+        float: none;
+    }
+
+    .fst-contrl-div-con{
+        display: flex;
+        flex-wrap:wrap;
+        width:100%;
+        justify-content: center;
+        gap:100px;
+        align-items: center;
+    }
+
+    .inner-fcdc{
+        border-radius: 10px;
+        width:60%;
+        height:auto;
+        background:rgb(37, 75, 200);
+        font-weight: bold;
+        text-align: center;
+        margin:10px;
+    }
+
+
+    .quot-des{
+        margin:20px 0px;
+    }
+    
+    .quot-des .des-ccl,.quot-des .des-dcl{
+        width:100%;
+        overflow: auto;
+    }
+    
+    
+    .quot-des .des-ccl tr td,.quot-des .des-dcl tr td{
+        width:40%;
+        float: left;
+        overflow: auto;
+    }
+}
+
+@media(max-width:550px){
+
+    #peon{
+        display: block;
+        margin-top: 0px;
+        float: left;
+        width:50px;
+        font-size: 30px;
+        background:  #dbdbdb;
+        border-radius: 10px;
+        text-align: center;
+        margin: 10px;
+        cursor: pointer;
+    }
+    
+    #losec{
+        display:block;
+        margin-top: 20px;
+        float: right;
+        width:50px;
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+    .main-div-container{
+        width:100%;
+        margin-left:0%;
+        padding:0px;
+        border:0px solid green;
+        height:auto;
+        float: left;
+    }
+
+    .sec-div-container{
+        padding:0px;
+        margin:0px;
+        width:100%;
+    }
+    
+
+    .dashboard{
+        width:100%;
+        height:100%;
+        position: fixed;top:0;
+        visibility: hidden;
+        z-index: 10;
+    }   
+
+    .fir-div-container table{
+        margin:0px;
+    }
+
+        
+    .fir-div-container table tr td{
+        padding:5px;
+        margin:0px;
+        width:100%;
+        float: left;
+    }
+
+    .fir-div-container .first-max{
+        width:100%;
+        margin:0px;
+        overflow: auto;
+        height:auto;
+    }
+
+
+    .fir-div-container .first-max tr td{
+        padding:5px;
+        margin:0px;
+        width:50%;
+        float:left;
+    }
+
+    .con-btn{
+        padding:20px;
+        border-radius:10px;
+        
+    }
+
+    .msg{
+        width:100%;
+        height:500px;
+        padding:50px;
+        border-radius: 10px;
+    }
+
+    .fst-contrl-div-con{
+        display: flex;
+        width:100%;
+        justify-content: space-around;
+        gap:30px;
+        align-items: center;
+    }
+
+    .inner-fcdc{
+        border-radius: 10px;
+        width:80%;
+        height:auto;
+        background:rgb(37, 75, 200);
+        font-weight: bold;
+        text-align: center;
+        margin:5px;
+    }
+
+    .quot-des{
+        margin:0px;
+    }
+    
+    .quot-des .des-ccl,.quot-des .des-dcl{
+        width:100%;
+        overflow: auto;
+    }
+    
+    
+    .quot-des .des-ccl tr td,.quot-des .des-dcl tr td{
+        width:100%;
+        float: left;
+        overflow: auto;
+    }
+
+} 
